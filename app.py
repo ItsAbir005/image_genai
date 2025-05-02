@@ -7,7 +7,7 @@ import subprocess
 api_key = os.environ.get("GOOGLE_API_KEY")
 client = genai.Client(api_key=api_key)
 
-prompt = "i want you generate any beautiful image from your imagination in cartoon style"
+prompt = "bengali brainrot cartoon, 4k, 8k, trending on artstation, highly detailed, cinematic lighting, hyper realistic, award winning photography, masterpiece, best quality, 1girl, solo, looking at viewer, cute face, short hair, blue hair, bangs, hair between eyes, open mouth, white background"
 
 response = client.models.generate_content(
     model="gemini-2.0-flash-exp-image-generation",
